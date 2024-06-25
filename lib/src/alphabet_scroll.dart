@@ -244,7 +244,7 @@ class _AlphabetScrollViewState extends State<AlphabetScrollView> {
                               },
                               child: Container(
                                 padding: const EdgeInsets.symmetric(
-                                    horizontal: 12, vertical: 2),
+                                    horizontal: 12, vertical: 24),
                                 child: Text(
                                   _filteredAlphabets[x].toUpperCase(),
                                   style: selected == x
